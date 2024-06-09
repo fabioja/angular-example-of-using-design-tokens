@@ -1,0 +1,14 @@
+.theme {
+  margin-bottom: 1rem;
+  background-color: var(--color-background);
+  text-align: end;
+
+  &__description-options {
+    margin-right: 0.5rem;
+  }
+
+  &__options {
+    font-size: var(--font-size);
+    padding: 0.25rem;
+  }
+}

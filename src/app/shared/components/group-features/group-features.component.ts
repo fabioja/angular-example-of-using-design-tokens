@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FeatureInterface } from '../../interfaces/feature.interface';
+import { FeaturesService } from '../../services/features/features.service';
 
 @Component({
   selector: 'app-group-features',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GroupFeaturesComponent implements OnInit {
 
-  constructor() { }
+  features: FeatureInterface[] = [];
+
+  constructor(private featureService: FeaturesService) { }
 
   ngOnInit(): void {
+    this.features = this.featureService.getFeatures();
   }
 
 }

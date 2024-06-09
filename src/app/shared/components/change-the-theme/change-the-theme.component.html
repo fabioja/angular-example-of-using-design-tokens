@@ -1,0 +1,16 @@
+<section class="theme">
+  <label class="theme__description-options" for="theme"
+    >selecione um tema:</label
+  >
+  <select
+    class="theme__options"
+    #theme
+    name="theme"
+    id="theme"
+    (change)="onChange()"
+  >
+    <option value="light-theme">light</option>
+    <option value="dark-theme">dark</option>
+    <option value="custom-theme">custom</option>
+  </select>
+</section>

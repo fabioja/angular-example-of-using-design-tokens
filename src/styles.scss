@@ -2,16 +2,9 @@
 /* -------------------------------
    Variáveis CSS
 --------------------------------- */
-:root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --text-color: #333;
-  --background-color: #f4f4f4;
-  --font-family: 'Arial', sans-serif;
-  --padding: 1rem;
-  --margin: 1rem;
-  --transition-speed: 0.3s;
-}
+@import '../node_modules/lib-design-tokens/projects/design-tokens/styles/theme-custom';
+@import '../node_modules/lib-design-tokens/projects/design-tokens/styles/theme-dark';
+@import '../node_modules/lib-design-tokens/projects/design-tokens/styles/theme-light';
 
 /* -------------------------------
  Reset
@@ -25,7 +18,7 @@
 body {
   font-family: var(--font-family);
   line-height: 1.6;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: var(--padding);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  padding: 1rem;
 }
