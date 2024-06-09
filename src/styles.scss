@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* -------------------------------
+   Variáveis CSS
+--------------------------------- */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --font-family: 'Arial', sans-serif;
+  --padding: 1rem;
+  --margin: 1rem;
+  --transition-speed: 0.3s;
+}
+
+/* -------------------------------
+ Reset
+--------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: var(--padding);
+}
