@@ -1,4 +1,4 @@
-.features {
+.group-features {
   background-color: var(--color-background);
   padding: 1rem;
 
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 768px) {
-  .features__container {
+  .group-features__container {
       flex-direction: column;
   }
 }

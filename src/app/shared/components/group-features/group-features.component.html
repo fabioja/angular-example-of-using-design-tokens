@@ -1,7 +1,10 @@
-<section class="features">
-  <div class="features__container">
+<section class="group-features">
+  <div class="group-features__container">
     <ng-container *ngFor="let item of features">
-      <app-card-feature [item]="item" class="features__item"></app-card-feature>
+      <app-card-feature
+        [item]="item"
+        class="group-features__item"
+      ></app-card-feature>
     </ng-container>
   </div>
 </section>
