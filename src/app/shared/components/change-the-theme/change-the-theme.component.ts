@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { ThemeService } from '../../services/theme/theme.service';
+import { ThemeService } from '@app-using-tokens/shared/services/theme/theme.service';
 
 @Component({
   selector: 'app-change-the-theme',

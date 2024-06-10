@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FeatureInterface } from '../../interfaces/feature.interface';
-import { FeaturesService } from '../../services/features/features.service';
+import { FeatureInterface } from '@app-using-tokens/shared/interfaces/feature.interface';
+import { FeaturesService } from '@app-using-tokens/shared/services/features/features.service';
 
 @Component({
   selector: 'app-group-features',

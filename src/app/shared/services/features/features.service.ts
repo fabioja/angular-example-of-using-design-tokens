@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FeatureInterface } from '../../interfaces/feature.interface';
+import { FeatureInterface } from '@app-using-tokens/shared/interfaces/feature.interface';
 
 @Injectable({
   providedIn: 'root'
